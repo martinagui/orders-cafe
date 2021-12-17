@@ -1,0 +1,20 @@
+.btnAddRemove {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  justify-content: center;
+  background-color: #000;
+  border-radius: 8px;
+  color: #fff;
+  padding: 0.3rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.btnAddRemove-negative,
+.btnAddRemove-positive {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
